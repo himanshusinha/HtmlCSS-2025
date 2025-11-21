@@ -1,11 +1,17 @@
+* {
+  /* border-top: 5px solid #1098ad; */
+}
+
+body {
+  color: #444;
+  font-family: sans-serif;
+  border-top: 5px solid #1098ad;
+}
 h1,
 h2,
 h3,
 h4,
-li,
-p {
-  font-family: sans-serif;
-  color: #444;
+p li {
 }
 h1,
 h2,
@@ -79,7 +85,7 @@ aside {
 /* .first-li {
   font-weight: bold;
 }
- */
+ 
 
 li:first-child {
   font-weight: bold;
@@ -120,3 +126,30 @@ a:active {
   background-color: black;
 }
 /* LVHA */
+
+/* Resolving Conflicting Declarations */
+#copyright {
+  color: red;
+}
+.copyright {
+  color: blue;
+}
+.text {
+  color: yellow;
+}
+
+/* !Important */
+/* footer p {
+  color: green !important;
+}
+ */
+
+/* nav a:link,
+nav p {
+  font-size: 18px;
+}
+ */
+
+nav {
+  font-size: 18px;
+}
