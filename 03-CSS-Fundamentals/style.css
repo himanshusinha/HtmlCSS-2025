@@ -198,15 +198,6 @@ nav p {
   /* position: relative; */
 }
 
-nav a:link {
-  /*   background-color: orangered;
-  margin: 20px;
-  padding: 20px;
-  display: block; */
-  margin-right: 20px;
-  margin-top: 10px;
-  display: inline-block;
-}
 nav a:link:last-child {
   margin-right: 0;
 }
@@ -238,3 +229,19 @@ h2::after {
   right: -25px;
   color: #444;
 }
+nav a:link {
+  /*   background-color: orangered;
+  margin: 20px;
+  padding: 20px;
+  display: block; */
+  margin-right: 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+.main-header nav a:link {
+  /* color: red; */
+  /* margin-top: 100px; */
+
+  /* this margintop will be apply because complex selectors has more priority */
+}
+/* Complex selector  */
